@@ -1,0 +1,208 @@
+body {
+  font-family: "Raleway", serif;
+}
+nav {
+  background-color: orange;
+}
+.T {
+  border: 1px solid royalblue;
+  padding: 1rem 1rem;
+}
+button {
+  padding: 1rem 1rem;
+  background-color: orange;
+  color: royalblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+button:hover {
+  background-color: royalblue;
+  color: white;
+  border: 1px solid orange;
+}
+.Hero {
+  background-color: royalblue;
+  color: white;
+  height: 70vh;
+}
+.navbar-brand img {
+  width: 6rem;
+}
+.nav-link {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+}
+.Hero-right img {
+  width: 23rem;
+  padding-top: 2rem;
+}
+@media screen and (min-width: 1220px) {
+  .Hero-right img {
+    width: 30rem;
+  }
+  .Hero-left {
+    width: 50%;
+    text-align: left;
+  }
+}
+.do {
+  padding: 2.5rem;
+}
+.do img {
+  width: 3rem;
+  height: 3rem;
+}
+#Journey {
+  color: royalblue;
+  background-color: orange;
+}
+.Jo-left img {
+  width: 23rem;
+}
+.Jo-right p {
+  font-weight: 700;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 1220px) {
+  .Jo-left img {
+    width: 40rem;
+  }
+  .Jo-right {
+    width: 50%;
+  }
+  .Jo-right p {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+/* Testimonial */
+#Testimonials {
+  background-color: orange;
+}
+.testimonial-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.testimonial-section h1 {
+  font-size: 2.5em;
+  color: royalblue;
+  margin-bottom: 20px;
+}
+
+.testimonial-carousel {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  flex-wrap: nowrap; /* Default: No wrapping for larger screens */
+}
+
+.testimonial-card {
+  min-width: 300px;
+  margin: 0 10px;
+  padding: 29px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.client-image {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid royalblue;
+}
+
+.client-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin: 10px 0 5px 0;
+  color: #333;
+}
+
+.client-role {
+  font-size: 0.9em;
+  color: gray;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial-carousel {
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    justify-content: center; /* Center cards when stacked */
+  }
+
+  .testimonial-card {
+    flex: 1 1 90%; /* Each card takes up 90% of the screen width */
+    margin: 10px 0; /* Add vertical spacing */
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-card {
+    flex: 1 1 100%; /* Each card takes up full width on mobile */
+  }
+}
+
+/* Testimonial */
+.dec {
+  margin-bottom: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.dec img {
+  width: 20rem;
+  border-radius: 5px;
+  height: 15rem;
+}
+.dec:hover {
+  transform: scale(1.08);
+  font-weight: 900;
+}
+footer {
+  background-color: royalblue;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+footer img {
+  width: 10rem;
+  border-radius: 1rem;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a img {
+  width: 2rem;
+  height: 2rem;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
